@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='azure-log-converter',
     version='0.1.0',
-    packages=[''],
+    packages=['azlogconvert'],
     scripts=['azlogconvert.py'],
     url='https://github.com/michal-klimek/azure-log-converter.git',
     license='GPL-3.0',
