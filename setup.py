@@ -4,6 +4,7 @@ setup(
     name='azure-log-converter',
     version='0.1.0',
     packages=[''],
+    scripts=['azlogconvert.py'],
     url='https://github.com/michal-klimek/azure-log-converter.git',
     license='GPL-3.0',
     author='Michał Klimek',
