@@ -138,8 +138,18 @@ def write_log_file(source: Iterable[LogEntry], file):
     file.writelines(it.format() + '\n' for it in source)
 
 
+def entry_point():
+    args = sys.argv[1:]
+
+    if not args:
+        print("Usage azlogconvert FILE")
+        return
+
+    convert_files(args[0])
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    convert_files(sys.argv[1])
+    entry_point()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
