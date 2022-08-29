@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "azure-log-converter"
+version = "0.1.0"
+description = "Converts azure webjobs logs into a better form"
+authors = ["Michał Klimek <michal.piotr.klimek@gmail.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pytz = "^2022.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
